@@ -2,7 +2,7 @@
 
 ## 🚀 Sobre mí
 
-Soy Licenciada en Física con formación enfocada en el análisis cuantitativo y pensamiento científico, actualmente especializándome en Ciencia de Datos.
+Soy Licenciada en Física con formación en análisis cuantitativo y pensamiento científico, actualmente especializándome en Ciencia de Datos.
 
 A lo largo de mi formación he desarrollado proyectos enfocados en análisis de datos, machine learning y procesamiento en entornos de Big Data, enfrentando desafíos reales como limpieza de datos, ingeniería de variables y evaluación crítica de modelos.
 
@@ -42,9 +42,9 @@ Desarrollo de un modelo de clasificación para identificar clientes de alto valo
 Análisis de segmentación de clientes utilizando técnicas de aprendizaje no supervisado.
 
 * Preprocesamiento de datos (limpieza, escalado y transformación)
-* Aplicación de K-means para segmentación
+* Aplicación de K-means
 * Evaluación de resultados mediante métricas como silhouette score
-* Análisis crítico de la utilidad de los clusters
+* Interpretación de segmentos desde una perspectiva de negocio
 
 🔎 **Valor:** Exploración de patrones de comportamiento para segmentación comercial.
 
@@ -109,23 +109,27 @@ Se entrenó un modelo de clasificación para identificar clientes de alto valor,
 
 ---
 
-#### Clustering (K-means)
+#### Segmentación de clientes (K-means)
 
 Se aplicó K-means para segmentar clientes en base a su comportamiento.
 
-Sin embargo, los resultados evidenciaron limitaciones importantes:
+En una primera etapa, los resultados evidenciaron limitaciones importantes:
 
 * Clusters altamente desbalanceados
 * Segmentaciones con alto silhouette score pero baja utilidad práctica
 * Baja interpretabilidad desde el negocio
 
-Se exploraron técnicas como PCA y t-SNE, observando que la información se distribuía en múltiples dimensiones, dificultando la formación de clusters claros.
+Esto evidenció que las métricas por sí solas no garantizan una segmentación útil.
+
+Sin embargo, mediante ajustes en el preprocesamiento y en la selección de parámetros, se logró identificar una configuración de clusters más equilibrada y coherente desde una perspectiva de negocio, aun cuando las métricas no eran óptimas.
+
+Esta segmentación permitió distinguir grupos de clientes con comportamientos diferenciados, generando una base interpretable para posibles estrategias comerciales.
 
 ---
 
 ### ⚠️ Limitaciones
 
-El análisis mostró que K-means no fue adecuado para este caso debido a:
+El análisis mostró que K-means presenta limitaciones en este contexto debido a:
 
 * Sensibilidad a outliers
 * Suposición de clusters esféricos
@@ -138,8 +142,8 @@ El análisis mostró que K-means no fue adecuado para este caso debido a:
 
 * La calidad de los datos es crítica en cualquier proyecto de analítica
 * Las métricas no siempre reflejan valor real para el negocio
-* Es fundamental evaluar críticamente los resultados de los modelos
-* La interpretabilidad es clave en la toma de decisiones
+* Es posible obtener resultados útiles incluso cuando los indicadores no son ideales
+* La interpretación y el contexto de negocio son fundamentales en la toma de decisiones
 
 ---
 
