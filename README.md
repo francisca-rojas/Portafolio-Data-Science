@@ -18,7 +18,7 @@ Me interesa desarrollarme en el área de analítica avanzada y machine learning,
 * **Big Data:** PySpark, Spark SQL, MLlib
 * **Machine Learning:** Scikit-learn
 * **Análisis de datos:** Pandas, NumPy
-* **Visualización:** Matplotlib
+* **Visualización:** Matplotlib, Seaborn
 
 ---
 
