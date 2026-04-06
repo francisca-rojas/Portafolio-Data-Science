@@ -14,7 +14,7 @@ Me interesa desarrollarme en el área de analítica avanzada y machine learning,
 
 ## 🛠️ Tecnologías y herramientas
 
-* **Lenguajes:** Python, SQL
+* **Lenguajes:** Python
 * **Big Data:** PySpark, Spark SQL, MLlib
 * **Machine Learning:** Scikit-learn
 * **Análisis de datos:** Pandas, NumPy
