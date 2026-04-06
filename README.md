@@ -28,13 +28,12 @@ Me interesa desarrollarme en el área de analítica avanzada y machine learning,
 
 Desarrollo de un modelo de clasificación para identificar clientes de alto valor en una plataforma de comercio electrónico.
 
-* Ingeniería de variables basada en comportamiento de compra (RFM)
-* Construcción de variable objetivo orientada a negocio
-* Entrenamiento de modelo de regresión logística
-* Evaluación mediante métricas como ROC-AUC (~0.98)
+* Ingeniería de variables basada en comportamiento de compra 
+* Entrenamiento de modelos de regresión
+* Optimización de modelos con reducción dimensional y regularización
+* Evaluación mediante análisis de error, explicabilidad y estabilidad
 
-🔎 **Valor:** Permite identificar clientes estratégicos para acciones de marketing y fidelización.
-
+🔎 **Valor:** Permite predecir comportamiento de gastos
 ---
 
 ### 🧩 Segmentación de clientes (Clustering)
@@ -42,7 +41,7 @@ Desarrollo de un modelo de clasificación para identificar clientes de alto valo
 Análisis de segmentación de clientes utilizando técnicas de aprendizaje no supervisado.
 
 * Preprocesamiento de datos (limpieza, escalado y transformación)
-* Aplicación de K-means
+* Aplicación de reducción de dimensional, K-means, Agrupamiento Jerárquico y DBSCAN
 * Evaluación de resultados mediante métricas como silhouette score
 * Interpretación de segmentos desde una perspectiva de negocio
 
