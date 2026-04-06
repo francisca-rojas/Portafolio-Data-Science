@@ -2,13 +2,13 @@
 
 ## 🚀 Sobre mí
 
-Soy Licenciada en Física con formación en análisis cuantitativo y pensamiento científico, actualmente especializándome en Ciencia de Datos.
+Soy Licenciada en Física con formación en pensamiento científico, modelamiento y análisis cuantitativo, actualmente especializándome en Ciencia de Datos.
 
-A lo largo de mi formación he desarrollado proyectos enfocados en análisis de datos, machine learning y procesamiento en entornos de Big Data, enfrentando desafíos reales como limpieza de datos, ingeniería de variables y evaluación crítica de modelos.
+A lo largo de mi formación he desarrollado proyectos enfocados en el análisis de datos, machine learning y procesamiento en entornos de Big Data, abordando problemas como limpieza de datos complejos, ingeniería de variables y evaluación crítica de modelos.
 
-Mi experiencia en docencia me ha permitido desarrollar habilidades de comunicación, pensamiento estructurado y resolución de problemas, las cuales complemento con herramientas técnicas para generar soluciones basadas en datos.
+Mi experiencia en docencia me ha permitido desarrollar una comunicación clara de conceptos técnicos, pensamiento estructurado y una fuerte orientación a la resolución de problemas.
 
-Me interesa desarrollarme en el área de analítica avanzada y machine learning, aportando valor mediante el uso estratégico de datos en la toma de decisiones.
+Me interesa desarrollarme en áreas de analítica avanzada y modelamiento, utilizando datos para comprender fenómenos complejos, identificar patrones y construir soluciones basadas en evidencia.
 
 ---
 
@@ -24,79 +24,80 @@ Me interesa desarrollarme en el área de analítica avanzada y machine learning,
 
 ## 📂 Proyectos destacados
 
-### 📊 Predicción de gasto en clientes e-commerce
+### 📊 Modelamiento predictivo de comportamiento en datos e-commerce
 
-Desarrollo de un modelo de clasificación para identificar clientes de alto valor en una plataforma de comercio electrónico.
+Desarrollo de un modelo de clasificación orientado a identificar patrones de comportamiento en datos transaccionales.
 
-* Ingeniería de variables basada en comportamiento de compra 
-* Entrenamiento de modelos de regresión
-* Optimización de modelos con reducción dimensional y regularización
-* Evaluación mediante análisis de error, explicabilidad y estabilidad
+* Ingeniería de variables basada en dinámicas de interacción
+* Entrenamiento de modelos de regresión y clasificación
+* Optimización mediante regularización y reducción de dimensionalidad
+* Evaluación con foco en estabilidad, error y capacidad de generalización
 
-🔎 **Valor:** Permite predecir comportamiento de gastos
----
-
-### 🧩 Segmentación de clientes (Clustering)
-
-Análisis de segmentación de clientes utilizando técnicas de aprendizaje no supervisado.
-
-* Preprocesamiento de datos (limpieza, escalado y transformación)
-* Aplicación de reducción de dimensional, K-means, Agrupamiento Jerárquico y DBSCAN
-* Evaluación de resultados mediante métricas como silhouette score
-* Interpretación de segmentos desde una perspectiva de negocio
-
-🔎 **Valor:** Exploración de patrones de comportamiento para segmentación comercial.
+🔎 **Enfoque:** Modelamiento de comportamiento a partir de datos estructurados
 
 ---
 
-### ⚡ Retail Analytics Pipeline con Spark
+### 🧩 Segmentación de datos mediante aprendizaje no supervisado
 
-Desarrollo de un pipeline de datos en entorno Big Data para análisis de clientes en retail.
+Aplicación de técnicas de clustering para explorar estructuras latentes en los datos.
+
+* Preprocesamiento: limpieza, escalado y transformación
+* Aplicación de K-means, clustering jerárquico y DBSCAN
+* Evaluación mediante métricas internas (silhouette score)
+* Análisis crítico de la coherencia estructural de los clusters
+
+🔎 **Enfoque:** Identificación de patrones y estructuras en datos complejos
+
+---
+
+### ⚡ Pipeline de procesamiento y análisis de datos con PySpark
+
+Desarrollo de un pipeline de datos en entorno distribuido para procesamiento y análisis a gran escala.
 
 * Procesamiento de datos con PySpark y consultas SQL
-* Limpieza y transformación de datos a gran escala
-* Integración de modelos de machine learning
-* Enfoque en calidad de datos y consistencia de la información
+* Limpieza, transformación y validación de datos
+* Preparación de datos para modelamiento
+* Enfoque en consistencia, escalabilidad y calidad de datos
 
-🔎 **Valor:** Construcción de base analítica para toma de decisiones en contextos de alto volumen de datos.
+🔎 **Enfoque:** Procesamiento eficiente de datos y construcción de bases analíticas robustas
 
 ---
 
-## ⭐ Caso de Estudio: Retail Analytics Pipeline con Spark
+## ⭐ Caso de Estudio: Pipeline de datos y modelamiento en entorno Big Data
 
 ### 📌 Problema
 
-Se trabajó con datos de retail en línea con el objetivo de analizar el comportamiento de clientes y construir un pipeline de datos que permitiera aplicar modelos de machine learning en un entorno de Big Data.
+Se abordó el procesamiento de un conjunto de datos de alta complejidad, con el objetivo de construir un pipeline que permitiera analizar patrones de comportamiento y aplicar modelos de machine learning en un entorno distribuido.
 
 ---
 
 ### ⚡ Desafío
 
-El principal desafío fue la baja calidad y complejidad de los datos, junto con la adaptación a nuevas herramientas.
+El principal desafío estuvo en la calidad, estructura y consistencia de los datos, junto con la adaptación a herramientas de procesamiento distribuido.
 
-Principales problemas:
+Principales dificultades:
 
-* Datos nulos en distintos formatos
-* Registros inconsistentes de ventas y devoluciones
-* Clientes sin identificación
-* Productos sin categorización clara
-* Variables no preparadas para modelos supervisados
+* Datos nulos en múltiples formatos
+* Registros inconsistentes y ruido en las observaciones
+* Falta de identificadores confiables
+* Variables no aptas para modelamiento directo
+* Alta variabilidad en los datos
 
 ---
 
 ### 💡 Solución
 
-Se implementó un proceso de limpieza y transformación de datos utilizando PySpark y consultas SQL.
+Se diseñó e implementó un pipeline de limpieza, transformación y preparación de datos utilizando PySpark y SQL.
 
 Acciones principales:
 
-* Eliminación e imputación de valores nulos
-* Filtrado de transacciones para considerar solo ventas reales
-* Selección de clientes válidos
-* Transformación logarítmica para reducir impacto de outliers
-* Ingeniería de variables basada en modelo RFM
+* Tratamiento sistemático de valores nulos
+* Filtrado de observaciones inconsistentes
+* Validación de entidades relevantes
+* Transformaciones para estabilizar distribuciones (log)
+* Ingeniería de variables basada en comportamiento (RFM)
 
-Se construyó además una variable objetivo para aplicar modelos supervisados orientados a identificar clientes de alto valor.
+Se construyó además una variable objetivo para permitir el entrenamiento de modelos supervisados.
 
 ---
 
@@ -104,51 +105,49 @@ Se construyó además una variable objetivo para aplicar modelos supervisados or
 
 #### Regresión logística
 
-Se entrenó un modelo de clasificación para identificar clientes de alto valor, obteniendo un desempeño alto (ROC ≈ 0.98).
+Se entrenó un modelo de clasificación logrando un alto desempeño (ROC ≈ 0.98), evidenciando una adecuada capacidad de discriminación.
 
 ---
 
-#### Segmentación de clientes (K-means)
+#### Clustering (K-means)
 
-Se aplicó K-means para segmentar clientes en base a su comportamiento.
+Se aplicó K-means para explorar estructuras internas en los datos.
 
-En una primera etapa, los resultados evidenciaron limitaciones importantes:
+Hallazgos relevantes:
 
-* Clusters altamente desbalanceados
-* Segmentaciones con alto silhouette score pero baja utilidad práctica
-* Baja interpretabilidad desde el negocio
+* Alta sensibilidad a la distribución de los datos
+* Presencia de clusters desbalanceados
+* Diferencia entre calidad métrica e interpretabilidad
 
-Esto evidenció que las métricas por sí solas no garantizan una segmentación útil.
+A través de ajustes en el preprocesamiento y parámetros, se logró una segmentación más coherente a nivel estructural, aun cuando las métricas no eran óptimas.
 
-Sin embargo, mediante ajustes en el preprocesamiento y en la selección de parámetros, se logró identificar una configuración de clusters más equilibrada y coherente desde una perspectiva de negocio, aun cuando las métricas no eran óptimas.
-
-Esta segmentación permitió distinguir grupos de clientes con comportamientos diferenciados, generando una base interpretable para posibles estrategias comerciales.
+Este resultado evidenció la importancia de complementar métricas cuantitativas con análisis crítico.
 
 ---
 
 ### ⚠️ Limitaciones
 
-El análisis mostró que K-means presenta limitaciones en este contexto debido a:
+El análisis permitió identificar limitaciones estructurales de K-means:
 
 * Sensibilidad a outliers
-* Suposición de clusters esféricos
-* Problemas con datos desbalanceados
-* Alta dimensionalidad
+* Suposición de formas esféricas
+* Dificultades con alta dimensionalidad
+* Dependencia del preprocesamiento
 
 ---
 
 ### 🧠 Aprendizajes
 
-* La calidad de los datos es crítica en cualquier proyecto de analítica
-* Las métricas no siempre reflejan valor real para el negocio
-* Es posible obtener resultados útiles incluso cuando los indicadores no son ideales
-* La interpretación y el contexto de negocio son fundamentales en la toma de decisiones
+* La calidad de los datos condiciona directamente los resultados
+* Las métricas no son suficientes para validar modelos
+* El análisis crítico es fundamental en ciencia de datos
+* La interpretación requiere contexto y comprensión del sistema
 
 ---
 
 ### 🎯 ¿Por qué este proyecto?
 
-Este proyecto representa un punto clave en mi formación, ya que integré conocimientos de procesamiento de datos, machine learning y Big Data, enfrentando desafíos similares a los de un entorno real.
+Este proyecto representa un punto clave en mi formación, ya que integré procesamiento de datos, modelamiento y análisis en un entorno complejo, enfrentando desafíos cercanos a escenarios reales.
 
 ---
 
