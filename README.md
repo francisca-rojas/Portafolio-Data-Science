@@ -1,6 +1,6 @@
-# 👩‍💻 Francisca Rojas — Portafolio de Ciencia de Datos
+# Francisca Rojas — Portafolio de Ciencia de Datos
 
-## 🚀 Sobre mí
+## Sobre mí
 
 Soy Licenciada en Física con formación en pensamiento científico, modelamiento y análisis cuantitativo, actualmente especializándome en Ciencia de Datos.
 
@@ -12,7 +12,7 @@ Me interesa desarrollarme en áreas de analítica avanzada y modelamiento, utili
 
 ---
 
-## 🛠️ Tecnologías y herramientas
+## Tecnologías y herramientas
 
 * **Lenguajes:** Python
 * **Big Data:** PySpark, Spark SQL, MLlib
@@ -22,9 +22,9 @@ Me interesa desarrollarme en áreas de analítica avanzada y modelamiento, utili
 
 ---
 
-## 📂 Proyectos destacados
+## Proyectos destacados
 
-### 📊 Modelamiento predictivo de comportamiento en datos e-commerce
+### Modelamiento predictivo de comportamiento en datos e-commerce
 
 Desarrollo de un modelo de clasificación orientado a identificar patrones de comportamiento en datos transaccionales.
 
@@ -33,11 +33,11 @@ Desarrollo de un modelo de clasificación orientado a identificar patrones de co
 * Optimización mediante regularización y reducción de dimensionalidad
 * Evaluación con foco en estabilidad, error y capacidad de generalización
 
-🔎 **Enfoque:** Modelamiento de comportamiento a partir de datos estructurados
+**Enfoque:** Modelamiento de comportamiento a partir de datos estructurados
 
 ---
 
-### 🧩 Segmentación de datos mediante aprendizaje no supervisado
+### Segmentación de datos mediante aprendizaje no supervisado
 
 Aplicación de técnicas de clustering para explorar estructuras latentes en los datos.
 
@@ -46,11 +46,11 @@ Aplicación de técnicas de clustering para explorar estructuras latentes en los
 * Evaluación mediante métricas internas (silhouette score)
 * Análisis crítico de la coherencia estructural de los clusters
 
-🔎 **Enfoque:** Identificación de patrones y estructuras en datos complejos
+**Enfoque:** Identificación de patrones y estructuras en datos complejos
 
 ---
 
-### ⚡ Pipeline de procesamiento y análisis de datos con PySpark
+### Pipeline de procesamiento y análisis de datos con PySpark
 
 Desarrollo de un pipeline de datos en entorno distribuido para procesamiento y análisis a gran escala.
 
@@ -59,19 +59,19 @@ Desarrollo de un pipeline de datos en entorno distribuido para procesamiento y a
 * Preparación de datos para modelamiento
 * Enfoque en consistencia, escalabilidad y calidad de datos
 
-🔎 **Enfoque:** Procesamiento eficiente de datos y construcción de bases analíticas robustas
+**Enfoque:** Procesamiento eficiente de datos y construcción de bases analíticas robustas
 
 ---
 
-## ⭐ Caso de Estudio: Pipeline de datos y modelamiento en entorno Big Data
+## Caso de Estudio: Pipeline de datos y modelamiento en entorno Big Data
 
-### 📌 Problema
+### Problema
 
 Se abordó el procesamiento de un conjunto de datos de alta complejidad, con el objetivo de construir un pipeline que permitiera analizar patrones de comportamiento y aplicar modelos de machine learning en un entorno distribuido.
 
 ---
 
-### ⚡ Desafío
+### Desafío
 
 El principal desafío estuvo en la calidad, estructura y consistencia de los datos, junto con la adaptación a herramientas de procesamiento distribuido.
 
@@ -85,7 +85,7 @@ Principales dificultades:
 
 ---
 
-### 💡 Solución
+### Solución
 
 Se diseñó e implementó un pipeline de limpieza, transformación y preparación de datos utilizando PySpark y SQL.
 
@@ -101,7 +101,7 @@ Se construyó además una variable objetivo para permitir el entrenamiento de mo
 
 ---
 
-### 🤖 Modelado
+### Modelado
 
 #### Regresión logística
 
@@ -125,7 +125,7 @@ Este resultado evidenció la importancia de complementar métricas cuantitativas
 
 ---
 
-### ⚠️ Limitaciones
+### Limitaciones
 
 El análisis permitió identificar limitaciones estructurales de K-means:
 
@@ -136,7 +136,7 @@ El análisis permitió identificar limitaciones estructurales de K-means:
 
 ---
 
-### 🧠 Aprendizajes
+### Aprendizajes
 
 * La calidad de los datos condiciona directamente los resultados
 * Las métricas no son suficientes para validar modelos
@@ -145,13 +145,13 @@ El análisis permitió identificar limitaciones estructurales de K-means:
 
 ---
 
-### 🎯 ¿Por qué este proyecto?
+### ¿Por qué este proyecto?
 
 Este proyecto representa un punto clave en mi formación, ya que integré procesamiento de datos, modelamiento y análisis en un entorno complejo, enfrentando desafíos cercanos a escenarios reales.
 
 ---
 
-## 📫 Contacto
+## Contacto
 
 * LinkedIn: *https://www.linkedin.com/in/francisca-rojas-634b21389/*
 * Email: *f.nada.todo@gmail.com*
